@@ -7,7 +7,7 @@ stages {
 stage('Build') {
 steps {
 script {
-sh "mvn clean package"
+bat "mvn clean package"
 }
 }
 post {
